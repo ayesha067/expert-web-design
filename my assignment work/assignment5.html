@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Navigation Bar</title>
+
+    <style> 
+                    /* navbar */
+        header{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+          position: sticky;
+          top: 10px;
+        }
+      .mylogo{
+           font-size: 30px;
+           color: azure;
+           text-decoration: none;
+           padding-top: 10px;
+           padding-left: 40px;
+         }
+  li{
+    display: inline;
+  }
+  li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+
+  li a:hover{
+    color: blue;
+  }
+
+                   /* Divbox */
+
+                   .D-1{
+            width: 400px;
+            height: 400px;
+            border: 2px;
+            background-color: rgb(226, 110, 43);
+  
+        }
+        .D-2{
+          width: 400px;
+            height: 400px;
+            border: 2px;
+            background-color: rgb(52, 226, 43);
+            top: 50px;
+         
+
+        }
+        .D-3{
+          width: 400px;
+            height: 400px;
+            border: 2px;
+            background-color: blueviolet; 
+
+
+        }
+        .D-4{
+          width: 400px;
+            height: 400px;
+            border: 2px;
+            background-color: rgb(226, 43, 180);
+
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <header>
+        <a href="" class="mylogo">Navigation Bar </a>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Insert</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </header>
+  <div class="D-1">
+    <h1>This is called div</h1>
+  </div>
+  <div class="D-2">
+  </div>
+  <div class="D-3">
+  </div>
+  <div class="D-4">
+  </div>
+  
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page layout</title>
+    <style>
+
+body {
+    display: flex;
+   justify-content: center;
+ 
+}
+
+.container {
+    width: 70%;
+    border: 5px solid black;
+    padding: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.logo {
+   width: 8%;
+   height: 30px;
+    background-color: rgb(8, 75, 20);
+    border: 2px solid black;
+    justify-content: space-evenly;
+}
+
+.nav {
+    display: flex;
+    
+    
+}
+
+.nav div {
+   width: 80px;
+   height: 30px;
+    background-color: yellow;
+    border: 2px solid black;
+    justify-content: space-evenly;
+    margin: 5px;
+ 
+}
+
+.button {
+    width: 8%;
+    height: 30px;
+    background-color: rgb(62, 76, 230);
+    border: 2px solid black;
+    justify-content: space-evenly;
+
+}
+
+.main {
+    display: flex;
+    margin-top: 3px;
+}
+
+.side1 {
+    width: 20%;
+    height: 400px;
+    background-color: blue;
+   
+}
+
+.side2 {
+    width: 60%;
+    height: 400px;
+    background-color: goldenrod;
+   
+}
+
+.side3 {
+    width: 20%;
+    height: 400px;
+    background-color: blue;
+
+}
+
+    </style>
+</head>
+<body>
+
+   <div class="container">
+      <div class="header">
+         <div class="logo"></div>
+         <div class="nav">
+           <div class="d-1"></div>
+           <div class="d-2"></div>
+           <div class="d-3"></div>
+         </div>
+         <div class="button"></div>
+      </div>
+
+      <div class="main">
+         <div class="side1"></div>
+         <div class="side2"></div>
+         <div class="side3"></div>
+      </div>
+   </div>
+
+</body>
+</html>
