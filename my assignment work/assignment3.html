@@ -4,131 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout Design</title>
+    <link rel="stylesheet" href="Layoutstyle.css">
     <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .container {
-            width: 100vw;
-            height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-        .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            background-color: red;
-            padding: 10px;
-            border: 2px solid black;
-        }
-        .logo, .button {
-            width: 50px;
-            height: 50px;
-            background-color: green;
-            border: 2px solid black;
-        }
-        .nav {
-            display: flex;
-            gap: 10px;
-        }
-        .nav div {
-            width: 80px;
-            height: 40px;
-            background-color: yellow;
-            border: 2px solid black;
-        }
-        .main {
-            display: flex;
-            flex: 1;
-        }
-        .side1, .side3 {
-            width: 20%;
-            background-color: blue;
-        }
-        .side2 {
-            width: 60%;
-            background-color: rgb(238, 223, 185);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 5px;
-        }
-        .status {
-            display: flex;
-            width: 100%;
-            justify-content: space-between;
-            border: 2px solid black;
-        }
-        .s1, .s2, .s3, .s4, .s5 {
-            width: 19.5%;
-            height: 30vh;
-        }
-        .s1 { background-color: rgb(199, 235, 223); }
-        .s2 { background-color: rgb(142, 221, 195); }
-        .s3 { background-color: rgb(104, 228, 186); }
-        .s4 { background-color: rgb(76, 190, 152); }
-        .s5 { background-color: rgb(49, 155, 120); }
 
-        .icon{
-            width: 50%;
-            height: 33px;
-            background-color: aliceblue;
-            border-radius: 50%;
-            position: relative;
-            top: 2%;
-            left: 7%;
-        }
-        .id {
-            width: 100%;
-            height: 25vh;
-            background-color: brown;
-            border: 2px solid black;
-            margin-top: 5px;
-            display: flex;
-            flex-direction: column;
-        }
-      .s6{
-        width: 100%;
-        height: 50%;
-        background-color: aliceblue;
-        display: flex;
-       flex-direction: row;
-      }
-
-      .icon2{
-            width: 15%;
-            height: 58px;
-            background-color: rgb(4, 53, 95);
-            border-radius: 50%;
-            position: relative;
-            top: 5%;
-            left: 2%;
-        }
-        .name{
-            width: 82%;
-            height: 77px;
-            background-color: rgb(119, 138, 10);
-            position: relative;
-            left: 10px;
-        }
-        .box2 {
-            width: 100%;
-            height: 25vh;
-            background-color: rgb(119, 9, 60);
-            border: 2px solid rgb(136, 14, 105);
-            margin-top: 5px;
-        }
-       
     </style>
 </head>
 <body>
+                <!-- header portion -->
     <div class="container">
         <div class="header">
             <div class="logo"></div>
@@ -139,40 +21,105 @@
             </div>
             <div class="button"></div>
         </div>
+                      <!-- body portion -->
+
         <div class="main">
+                    <!-- Right part -->
             <div class="side1"></div>
+             
+                       <!-- center part -->
             <div class="side2">
                 <div class="status">
-                    <div class="s1"> 
-                        <div class="icon"></div>
-                    </div>
-                    <div class="s2">
-                        <div class="icon"></div>
-                    </div>
-                    <div class="s3">
-                        <div class="icon"></div>
-                    </div>
-                    <div class="s4">
-                        <div class="icon"></div>
-                    </div>
-                    <div class="s5">
-                        <div class="icon"></div>
-                    </div>
+                    <div class="s1"><div class="icon"></div></div>
+                    <div class="s2"><div class="icon"></div></div>
+                    <div class="s3"><div class="icon"></div></div>
+                    <div class="s4"><div class="icon"></div></div>
+                    <div class="s5"><div class="icon"></div></div>
                 </div>
                 <div class="id">
-                   <div class="s6">
-                    <div class="icon2"></div>
-                    <div class="name"></div>
-                   </div>
-                   <div class="s7"></div>
+                    <div class="top">
+                        <div class="icon-div"><div class="icon2"></div></div>
+                        <div class="name">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="s7">
+                        <div class="box">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="id2">
+                <div class="bottom"><div class="bottom-0"></div></div>
+            </div>
+                     <!-- center portion is complete -->
+
+                    <!-- Left part -->
+            <div class="side3">
+                              <!-- child 1 -->
+                <div class="child1">
+                    <h1></h1> 
+                  <div class="p-1">
+                     <div class="icon-1"><div></div></div>
+                        <div class="icon-text"><div></div></div>
+                     </div>
+                     <div class="p-2"></div>
                 </div>
-                <div class="box2"></div>
+                              <!-- child 2 -->
+
+                <div class="child2">
+                    <div class="p-3">
+                        <div class="icon-2"><div></div></div>
+                        <div class="text"><div></div></div>
+                    </div>
+                </div>
+                              <!-- child 3 -->
+                <div class="child3">
+                    <div class="p-4"> 
+                        <div class="contacts"> </div>
+                        <div class="dot"></div>
+                    </div> 
+                    <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div> <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div>
+                    <div class="p-5">
+                        <div class="box2">
+                            <div class="circle"></div>
+                            <div class="yellow-box"></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            </div>
-            <div class="side3"></div>
         </div>
     </div>
 </body>
 </html>
+
+
