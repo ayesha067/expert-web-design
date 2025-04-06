@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+                   /* gird no 1 and 2*/
+        .container
+        {
+            width: 46%;
+            height: 200px;
+            display: grid;
+            grid-template-columns: 1fr 1fr auto;
+            gap: 2px;
+            background-color: aqua;
+        }
+
+        .container div{
+            width: 200px;
+            height: auto;
+            background-color: brown;
+        }
+                  /* gird no 3 */
+        .container2
+        {
+            width: 30%;
+            height: 200px;
+            display: grid;
+            grid-template-columns: 1fr auto ;
+            gap: 3px;
+            background-color: rgb(149, 219, 219);
+        }
+
+        .container2 div{
+            width: 200px;
+            height: auto;
+            background-color: rgb(6, 124, 55);
+        }
+        .box1{
+            grid-row-start: 1;
+            grid-row-end: 3;
+        }
+                  /* gird no 4 */
+
+     
+    </style>
+</head>
+<body>
+    <h1>Grid 1</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div> 
+
+    <h1>Grid 2</h1>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+
+    <h1>Grid 3</h1>
+    <div class="container2">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+    </div>
+
+
+   
+</body>
+</html>
