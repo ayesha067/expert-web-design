@@ -1,71 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Assignment List</title>
-    <style>
+  <meta charset="UTF-8">
+  <title>Module Assignments</title>
+  <style>
+    body {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+
+   
+    table {
+      width: 100%;
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 12px 15px;
+      border: 1px solid #ccc;
      
+    }
 
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #b47575;
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
+    th {
+      background-color: #dde2e4;
+    }
 
-        .container {
-            background-color: #e4deba;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 90%;
-            max-width: 400px;
-            text-align: center;
-            margin: 20px auto;
-        }
-
-        .container h1 {
-            font-size: 24px;
-            color: #333333;
-            margin-bottom: 20px;
-        }
-
-        .assignment-list a {
-            display: block;
-            text-decoration: none;
-            background-color: #f5e1da;
-            color: #020202;
-            padding: 10px;
-            border-radius: 5px;
-            border: 1px solid #490535;
-            margin: 5px 0;
-            transition: background-color 0.3s, color 0.3s;
-        }
-
-        .assignment-list a:hover {
-            background-color: #913773;
-            color: #ffffff;
-        }
-    </style>
+    tr.chapter-title td {
+      background-color: #053c5c;
+      color: #eee;
+      font-weight: bold;
+      font-size: 20px;
+      border-top: 2px solid #5e4e4e;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>My Assignment List</h1>
-        <div class="assignment-list">
-            <a href="./my assignment work/assignment3.html" target="_blank">Facebook Layout Assignment</a>
-            <a href="./my assignment work/assignment2.html" target="_blank">Form Assignment 01</a>
-            <a href="./my assignment work/assignment8.html" target="_blank">Form Assignment 02</a>
-            <a href="./my assignment work/assignment1.html" target="_blank">Form Assignment 03</a>
-            <a href="./my assignment work/assignment4.html" target="_blank">Position Assignment</a>
-            <a href="./my assignment work/assignment5.html" target="_blank">Sticky Navbar Assignment</a>
-            <a href="./my assignment work/assignment6.html" target="_blank">Units Assignment</a>
-            <a href="./my assignment work/assignment7.html" target="_blank">Navbar Assignment</a>
-            <a href="./my assignment work/assignment7.html" target="_blank">Grid Layout</a>
 
-        </div>
-    </div>
+  <h1>Module Assignments</h1>
+
+  <table>
+    <tr>
+      <th>S#</th>
+      <th>Assignment Detail</th>
+      <th>Status</th>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 1: Introduction to HTML</td></tr>
+    <tr>
+      <td>1</td>
+      <td><strong>Design a Personal Blog Page</strong><br>Create a simple personal webpage with a heading (your name), an introduction paragraph, and a footer with contact information.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td><strong>Write an About Me Section</strong><br>Structure an "About Me" section with proper headings, paragraphs, and horizontal lines for separation.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 2: Lists and Tables</td></tr>
+    <tr>
+      <td>3</td>
+      <td><strong>Create a Karachi Street Food Menu</strong><br>Use unordered and ordered lists to showcase popular Karachi Street foods like Bun Kebab, Nihari, and Biryani. Include prices and descriptions.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 3: Multimedia and Layout Basics</td></tr>
+    <tr>
+      <td>4</td>
+      <td><strong>Design a Student Report Card</strong><br>Build a student marksheet table with columns for Subject, Marks, and Grade.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td><strong>Build a Portfolio Page</strong><br>Add images, profile photo, and contact section using CSS.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td><strong>Embed Audio Player for a Podcast</strong><br>Include an audio player with controls for play/pause.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 4: Header, Navigation, and Basic Animation</td></tr>
+    <tr>
+      <td>7</td>
+      <td><strong>Create a Company Website Homepage</strong><br>Homepage with navigation menu that includes Home, About, Services, and Contact.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td><strong>Implement Scroll-based Navigation</strong><br>Smooth scroll to page sections using JavaScript or anchor links.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 5: Divs, Classes, IDs</td></tr>
+    <tr>
+      <td>9</td>
+      <td><strong>Develop a Product Advertisement Banner</strong><br>Styled banner that includes product image, description, and price.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 6: CSS Positioning and Other Essentials</td></tr>
+    <tr>
+      <td>10</td>
+      <td><strong>Create a Website Header with Background Image</strong><br>Apply a background image and call-to-action button.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td><strong>Design CSS Sidebar Menu</strong><br>Sidebar menu fixed to left of page.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td><strong>Create a Floating Chat Button</strong><br>Button that stays fixed in the bottom right.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 7: Semantic HTML and Forms</td></tr>
+    <tr>
+      <td>13</td>
+      <td><strong>Build a Job Application Form</strong><br>Include form elements for name, email, resume upload, etc.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td><strong>Create a Newsletter Subscription Box</strong><br>Simple form for newsletter signup.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 8: CSS Selectors and Pseudo-Selectors</td></tr>
+    <tr>
+      <td>15</td>
+      <td><strong>Highlight Important Messages</strong><br>Style list items, error messages, etc.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>16</td>
+      <td><strong>Use CSS for Navigation Styling</strong><br>Style nav bar with hover colors.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 9: Layouts with Flexbox and Grid</td></tr>
+    <tr>
+      <td>17</td>
+      <td><strong>Create a Responsive Services Section</strong><br>Three-column responsive layout with images and descriptions.</td>
+      <td></td>
+    </tr>
+
+    <tr class="chapter-title"><td colspan="3">Chapter 10: Responsive Design and Media Queries</td></tr>
+    <tr>
+      <td>18</td>
+      <td><strong>Build a Portfolio Grid Layout</strong><br>Arrange images in a responsive grid format for a photographer’s portfolio.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>19</td>
+      <td><strong>Make a Mobile-Friendly Homepage</strong><br>Use media queries to adjust layout on different screen sizes.</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>20</td>
+      <td><strong>Implement a Responsive Footer</strong><br>Ensure footer elements stack vertically on small screens.</td>
+      <td></td>
+    </tr>
+
+  </table>
+
 </body>
 </html>
