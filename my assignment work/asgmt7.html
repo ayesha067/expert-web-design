@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+     header{
+            background-color: black;
+            display: flex;
+            justify-content: space-between;
+          position: sticky;
+          top: 10px;
+        }
+      .mylogo{
+           font-size: 30px;
+           color: azure;
+           text-decoration: none;
+           padding-top: 10px;
+           padding-left: 40px;
+         }
+  li{
+    display: inline;
+  }
+  li a{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 400px;
+    padding: 10px;
+    text-decoration: none;
+    padding-left: 20px;
+    margin-right: 20px;
+  }
+
+  li a:hover{
+    color: blue;
+  }
+
+    /* Animation Keyframes */
+    @keyframes colorChange {
+      0% {
+        color: #1a1a1a;
+        font-size: 36px;
+      }
+      50% {
+        color: #e91e63;
+        font-size: 48px;
+      }
+      100% {
+        color: #1a1a1a;
+        font-size: 36px;
+      }
+    }
+
+    .animation {
+      text-align: center;
+      animation: colorChange 3s infinite ease-in-out;
+    }
+
+    h3, h5, h6 {
+      text-align: center;
+    }
+
+    hr {
+      margin: 40px auto;
+      width: 60%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="" class="mylogo">Navigation Bar </a>
+    <ul>
+        <li><a href="">Home</a></li>
+        <li><a href="">Insert</a></li>
+        <li><a href="">About</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</header>
+
+  <div class="one">
+    <h1 class="animation">Welcome to our Company</h1>
+  </div>
+
+  <div class="two">
+    <h3>Providing the best <span class="three">Solution</span> for your Business.</h3>
+  </div>
+
+  <hr>
+
+  <div>
+    <h5>Our Mission</h5>
+  </div>
+
+  <div>
+    <h6>We strive to deliver top quality services to our clients with efficiency and dedication.</h6>
+  </div>
+</body>
+</html>
