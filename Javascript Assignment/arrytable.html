@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<script>
+
+let app = ["Hina" , "Fiza", "Noor"];
+let color = [23, 45, 32];
+let logo = ["./image/fb.png"];
+
+
+document.write("<table border='2'")
+ document.write("<tr>")
+ document.write("<th>Picture</th>")
+ document.write("<th>Name</th>")
+ document.write("<th>Age</th>")
+ document.write("</tr>")
+
+for(let i =0; i < color.length; i++){
+   document.write("<tr>")
+   document.write("<td> <img src='" + logo[i] + "'/> </td>")
+   document.write("<td>" + app[i] + "</td>")
+   document.write("<td>" + color[i] + "</td>")
+   document.write("</tr>")
+}
+</script>
+<body>
+  
+
+</html>

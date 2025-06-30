@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Vowel Counting</title>
+</head>
+<body>
+
+<script>
+  var input = prompt("Enter a string to find vowels:");
+  var vowels = ['a', 'e', 'i', 'o', 'u'];
+  var vowelscount = [];
+  var lowerInput = input.toLowerCase();
+
+  for (var i = 0; i < lowerInput.length; i++) {
+    var char = lowerInput[i];
+    if (vowels.includes(char)) {
+      vowelscount.push(char);
+    }
+  }
+  document.write("Input String: " + input + "<br>");
+  document.write("Vowels Found: " + vowelscount.join(", ") + "<br>");
+  document.write("Total Vowels: " + vowelscount.length);
+  
+</script>
+
+</body>
+</html>
