@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Checker</title>
+</head>
+<body>
+    <h2>Interactive Grade Checker</h2>
+
+   <script>
+        let marks = Number(prompt("Enter your marks (0–100):"));
+
+        if (marks > 100 || marks < 0 || isNaN(marks)) {
+            document.write("Invalid");
+        } 
+        else if (marks >= 80) {
+            document.write("Your Grade is A");
+        } 
+        else if (marks >= 70) {
+            document.write("Your Grade is B");
+        } 
+        else if (marks >= 60) {
+            document.write("Your Grade is C");
+        } 
+        else if (marks >= 50) {
+            document.write("Your Grade is D");
+        } 
+        else {
+            document.write("Your Grade is F");
+        }
+    </script>
+</body>
+</html>

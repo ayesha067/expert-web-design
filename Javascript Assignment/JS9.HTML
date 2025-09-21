@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments Section</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: burlywood;
+    }
+    .comment-box {
+      width: 100%;
+      max-width: 400px;
+    }
+    textarea {
+      width: 100%;
+      height: 80px;
+      padding: 8px;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 8px 12px;
+      cursor: pointer;
+    }
+    .comments-list {
+      margin-top: 20px;
+      list-style: none;
+      padding: 0;
+    }
+    .comments-list li {
+      background: #3b0404;
+      padding: 10px;
+      margin-bottom: 8px;
+      border-radius: 5px;
+     color: aliceblue;
+    }
+  </style>
+</head>
+<body>
+  <h2>Comments Section</h2>
+  <div class="comment-box">
+    <textarea id="commentInput" placeholder="Write your comment..."></textarea>
+    <br>
+    <button onclick="addcomment()">Submit</button>
+  </div>
+
+  <ul id="commentsList" class="comments-list"></ul>
+
+  <script>
+    function addcomment() {
+      let input = document.getElementById("commentInput");
+
+      let commenttext = input.value; 
+      if (commenttext !== "") 
+      {
+
+        let li = document.createElement("li");
+        li.textContent = commenttext;
+
+        document.getElementById("commentsList").appendChild(li);
+        input.value = ""; 
+
+      } 
+      else {
+        alert("Please type a comment first!");
+      }
+    }
+  </script>
+</body>
+</html>

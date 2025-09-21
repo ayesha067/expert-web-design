@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let s = 0;
+        let m = 0;
+        let h = 0;
+        function run() {
+
+            s += 1;
+
+            let h1 = document.getElementById("out");
+            h1.innerText = h + ":" + m +":" + s;
+
+         if (s === 60) {
+            s = 0;
+            m += 1;
+        }
+            
+        if (m === 60)
+        {
+            m = 0;
+            s = 0;
+            y += 1;
+        }
+    }
+
+        let it;
+
+        function go() {
+
+            it = setInterval(run, 1000);
+
+          
+        }
+
+        function stop() {
+            window.clearInterval(it);
+        }
+
+    </script>
+</head>
+
+<body>
+
+    <div class="watchid">
+        <div class="body">
+            <h1 id="out"></h1>
+        </div>
+        <div class="button">
+            <button onclick="go()">Start</button>
+            <button onclick="stop()">Stop</button>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

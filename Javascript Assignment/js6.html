@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <script>
+    function togglefaq() {
+      let moreText = document.getElementById("more");
+      let btn = document.getElementById("btn");
+
+      if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        btn.innerText = "Show Less";
+      } else {
+        moreText.style.display = "none";
+        btn.innerText = "Show More";
+      }
+    }
+  </script>
+
+</head>
+
+<body>
+    
+ <h1>Text Expend</h1>
+  <p id="faq">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, modi eum illum veniam alias fugit consequuntur maxime corrupti, nobis in, inventore adipisci minima nam voluptatum accusantium odio praesentium magnam reiciendis?
+    <span id="more" style="display:none;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, suscipit facilis enim quos quam ratione maiores inventore repellat adipisci itaque, laboriosam blanditiis quo, nemo necessitatibus sed placeat in earum soluta.
+    </span>
+  </p>
+  <button onclick="togglefaq()" id="btn">Show More</button>
+
+</body>
+</html>

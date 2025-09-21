@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .head{
+        
+            font-size: 34px;
+            text-align: center;
+            text-decoration: underline;
+            font-family: montserrat;
+        }
+
+
+        .dark {
+                background-color: navy;
+                color: turquoise;
+        }
+
+        button{
+            font-size: 45px;
+        }
+
+        .backdrop{
+        
+            width: 99%;
+            height: 99vh;
+
+            background-color: rgba(0, 0, 0, 0.611);
+                display: none;
+
+            position: absolute;
+            top: 0;
+        }
+        .modal{
+                width: 30%;
+                height: 700px;
+
+                background-color: blue;
+
+                display: none;
+
+                position: absolute;
+
+                top: 100px;
+
+                left: 600px;
+        }
+    </style>
+
+<script>
+
+        function darkMode() {
+            
+            let head1 = document.getElementById("head1");
+
+            // head1.setAttribute("class","dark head");
+            head1.classList.toggle("dark");
+            
+
+        }
+
+        
+        function lightMode() {
+            
+            let head1 = document.getElementById("head1");
+
+            // head1.setAttribute("class","light head");
+            head1.classList.toggle("dark");
+            
+
+            
+
+        }
+
+        function toggle(){
+
+            let btn = document.getElementById("btn");
+
+            let head1 = document.getElementById("head1");
+
+            if(head1.getAttribute("class")=="light head")
+            {
+                head1.setAttribute("class","dark head");
+                btn.innerText = "Light"
+
+            }
+            else{
+                head1.setAttribute("class","light head");
+                btn.innerText = "Dark"
+
+            }
+
+
+        }
+
+
+        let i =1;
+        function xyz(){
+
+            if(i>5){
+
+                i=1;
+            }
+            
+            let img1 = document.getElementById("img1");
+
+            console.log('irfan22 ('+i+').png');
+            
+            img1.setAttribute("src",'irfan22 ('+i+').png')
+
+            
+
+            i = i+1;
+        }
+
+    </script>
+</head>
+<body>
+
+    <button onclick="show()"> Change </button>
+
+    <button id="btn" onclick="toggle()"> Dark </button>
+    <!-- <button onclick="lightMode()"> Light Mode </button>
+    <button onclick="darkMode()"> DarKMode </button> -->
+
+    <h1 id="head1" class="light head"> <span>
+        asdfds
+    </span>fsdfsdf</h1>
+
+
+    <button onclick="document.getElementById('modal1').style.display='block';document.getElementById('back').style.display='block';">Open Modal</button>
+
+    <div class="backdrop"  id="back"   onclick="document.getElementById('modal1').style.display='none';document.getElementById('back').style.display='none';">
+    </div>
+
+        <div class="modal" id="modal1">
+            
+            <button  onclick="document.getElementById('modal1').style.display='none';document.getElementById('back').style.display='none';">X</button>
+            
+            <h1>Expert IT</h1>
+        </div>
+    
+</body>
+</html>

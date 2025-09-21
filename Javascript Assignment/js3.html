@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+ <h2>My Simple Tip Calculator</h2>
+
+    <script>
+        let bill = prompt("Enter the bill amount:");
+        let tip = prompt("Enter the tip percentage:");
+        let total = Number(bill) + (Number(bill) * Number(tip) / 100);
+        document.write("<h3>Total with Tip: " + total + "</h3>");
+    </script>
+    
+</body>
+</html>

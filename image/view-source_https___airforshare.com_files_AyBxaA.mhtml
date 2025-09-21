@@ -1,0 +1,116 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://airforshare.com/files/AyBxaA.html
+Subject: 
+Date: Mon, 14 Jul 2025 17:48:20 +0500
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--2sdIxaFrj6wcRbNg65UKX9IucLoCtrIxIYQxDqNav4----"
+
+
+------MultipartBoundary--2sdIxaFrj6wcRbNg65UKX9IucLoCtrIxIYQxDqNav4----
+Content-Type: text/html
+Content-ID: <frame-F9D67A9F3ABB4409DDA9E99A2E0EB11A@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://airforshare.com/files/AyBxaA.html
+
+<html><head><meta http-equiv=3D"Content-Type" content=3D"text/html; charset=
+=3DUTF-8"><meta name=3D"color-scheme" content=3D"light dark"></head><body><=
+div class=3D"line-gutter-backdrop"></div><form autocomplete=3D"off"><label =
+class=3D"line-wrap-control">Line wrap<input type=3D"checkbox" aria-label=3D=
+"Line wrap"></label></form><table><tbody><tr><td class=3D"line-number" valu=
+e=3D"1"></td><td class=3D"line-content"><span class=3D"html-doctype">&lt;!D=
+OCTYPE html&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"2"><=
+/td><td class=3D"line-content"><span class=3D"html-tag">&lt;html <span clas=
+s=3D"html-attribute-name">lang</span>=3D"<span class=3D"html-attribute-valu=
+e">en</span>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"3"=
+></td><td class=3D"line-content"><span class=3D"html-tag">&lt;head&gt;</spa=
+n></td></tr><tr><td class=3D"line-number" value=3D"4"></td><td class=3D"lin=
+e-content">    <span class=3D"html-tag">&lt;meta <span class=3D"html-attrib=
+ute-name">charset</span>=3D"<span class=3D"html-attribute-value">UTF-8</spa=
+n>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"5"></td><td =
+class=3D"line-content">    <span class=3D"html-tag">&lt;meta <span class=3D=
+"html-attribute-name">name</span>=3D"<span class=3D"html-attribute-value">v=
+iewport</span>" <span class=3D"html-attribute-name">content</span>=3D"<span=
+ class=3D"html-attribute-value">width=3Ddevice-width, initial-scale=3D1.0</=
+span>"&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"6"></td><=
+td class=3D"line-content">    <span class=3D"html-tag">&lt;title&gt;</span>=
+Document<span class=3D"html-tag">&lt;/title&gt;</span></td></tr><tr><td cla=
+ss=3D"line-number" value=3D"7"></td><td class=3D"line-content">    <span cl=
+ass=3D"html-tag">&lt;script&gt;</span></td></tr><tr><td class=3D"line-numbe=
+r" value=3D"8"></td><td class=3D"line-content">        console.log(window.l=
+ocalStorage.getItem("naam"));</td></tr><tr><td class=3D"line-number" value=
+=3D"9"></td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-=
+number" value=3D"10"></td><td class=3D"line-content">        function go() =
+{</td></tr><tr><td class=3D"line-number" value=3D"11"></td><td class=3D"lin=
+e-content">            window.history.forward();</td></tr><tr><td class=3D"=
+line-number" value=3D"12"></td><td class=3D"line-content">        }</td></t=
+r><tr><td class=3D"line-number" value=3D"13"></td><td class=3D"line-content=
+"><br></td></tr><tr><td class=3D"line-number" value=3D"14"></td><td class=
+=3D"line-content">        // function saveName(){</td></tr><tr><td class=3D=
+"line-number" value=3D"15"></td><td class=3D"line-content"><br></td></tr><t=
+r><td class=3D"line-number" value=3D"16"></td><td class=3D"line-content">  =
+      //     window.localStorage.setItem("naam","expert_it_14");</td></tr><=
+tr><td class=3D"line-number" value=3D"17"></td><td class=3D"line-content"><=
+br></td></tr><tr><td class=3D"line-number" value=3D"18"></td><td class=3D"l=
+ine-content">        // }</td></tr><tr><td class=3D"line-number" value=3D"1=
+9"></td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-numb=
+er" value=3D"20"></td><td class=3D"line-content">        function set(){</t=
+d></tr><tr><td class=3D"line-number" value=3D"21"></td><td class=3D"line-co=
+ntent">            window.localStorage.setItem("naam","expert_it_14");</td>=
+</tr><tr><td class=3D"line-number" value=3D"22"></td><td class=3D"line-cont=
+ent">        }</td></tr><tr><td class=3D"line-number" value=3D"23"></td><td=
+ class=3D"line-content">        </td></tr><tr><td class=3D"line-number" val=
+ue=3D"24"></td><td class=3D"line-content">        function get(){</td></tr>=
+<tr><td class=3D"line-number" value=3D"25"></td><td class=3D"line-content">=
+            console.log(window.localStorage.getItem("naam"));</td></tr><tr>=
+<td class=3D"line-number" value=3D"26"></td><td class=3D"line-content"><br>=
+</td></tr><tr><td class=3D"line-number" value=3D"27"></td><td class=3D"line=
+-content">        }</td></tr><tr><td class=3D"line-number" value=3D"28"></t=
+d><td class=3D"line-content">        </td></tr><tr><td class=3D"line-number=
+" value=3D"29"></td><td class=3D"line-content">        function remove(){</=
+td></tr><tr><td class=3D"line-number" value=3D"30"></td><td class=3D"line-c=
+ontent">            window.localStorage.removeItem("naam");</td></tr><tr><t=
+d class=3D"line-number" value=3D"31"></td><td class=3D"line-content"><br></=
+td></tr><tr><td class=3D"line-number" value=3D"32"></td><td class=3D"line-c=
+ontent">        }</td></tr><tr><td class=3D"line-number" value=3D"33"></td>=
+<td class=3D"line-content">    <span class=3D"html-tag">&lt;/script&gt;</sp=
+an></td></tr><tr><td class=3D"line-number" value=3D"34"></td><td class=3D"l=
+ine-content"><br></td></tr><tr><td class=3D"line-number" value=3D"35"></td>=
+<td class=3D"line-content">    <span class=3D"html-comment">&lt;!-- </span>=
+</td></tr><tr><td class=3D"line-number" value=3D"36"></td><td class=3D"line=
+-content"><span class=3D"html-comment">    name =3D value</span></td></tr><=
+tr><td class=3D"line-number" value=3D"37"></td><td class=3D"line-content"><=
+span class=3D"html-comment"><br></span></td></tr><tr><td class=3D"line-numb=
+er" value=3D"38"></td><td class=3D"line-content"><span class=3D"html-commen=
+t">    "key": "value"</span></td></tr><tr><td class=3D"line-number" value=
+=3D"39"></td><td class=3D"line-content"><span class=3D"html-comment"><br></=
+span></td></tr><tr><td class=3D"line-number" value=3D"40"></td><td class=3D=
+"line-content"><span class=3D"html-comment">    --&gt;</span></td></tr><tr>=
+<td class=3D"line-number" value=3D"41"></td><td class=3D"line-content"><spa=
+n class=3D"html-tag">&lt;/head&gt;</span></td></tr><tr><td class=3D"line-nu=
+mber" value=3D"42"></td><td class=3D"line-content"><span class=3D"html-tag"=
+>&lt;body&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"43"></=
+td><td class=3D"line-content"><br></td></tr><tr><td class=3D"line-number" v=
+alue=3D"44"></td><td class=3D"line-content">    <span class=3D"html-tag">&l=
+t;button <span class=3D"html-attribute-name">onclick</span>=3D"<span class=
+=3D"html-attribute-value">go()</span>"&gt;</span>Reload<span class=3D"html-=
+tag">&lt;/button&gt;</span></td></tr><tr><td class=3D"line-number" value=3D=
+"45"></td><td class=3D"line-content">    <span class=3D"html-tag">&lt;butto=
+n <span class=3D"html-attribute-name">onclick</span>=3D"<span class=3D"html=
+-attribute-value">set()</span>"&gt;</span>set<span class=3D"html-tag">&lt;/=
+button&gt;</span></td></tr><tr><td class=3D"line-number" value=3D"46"></td>=
+<td class=3D"line-content">    <span class=3D"html-tag">&lt;button <span cl=
+ass=3D"html-attribute-name">onclick</span>=3D"<span class=3D"html-attribute=
+-value">get()</span>"&gt;</span>get<span class=3D"html-tag">&lt;/button&gt;=
+</span></td></tr><tr><td class=3D"line-number" value=3D"47"></td><td class=
+=3D"line-content">    <span class=3D"html-tag">&lt;button <span class=3D"ht=
+ml-attribute-name">onclick</span>=3D"<span class=3D"html-attribute-value">r=
+emove()</span>"&gt;</span>remove<span class=3D"html-tag">&lt;/button&gt;</s=
+pan></td></tr><tr><td class=3D"line-number" value=3D"48"></td><td class=3D"=
+line-content">    </td></tr><tr><td class=3D"line-number" value=3D"49"></td=
+><td class=3D"line-content"><span class=3D"html-tag">&lt;/body&gt;</span></=
+td></tr><tr><td class=3D"line-number" value=3D"50"></td><td class=3D"line-c=
+ontent"><span class=3D"html-tag">&lt;/html&gt;</span><span class=3D"html-en=
+d-of-file"></span></td></tr></tbody></table></body></html>
+------MultipartBoundary--2sdIxaFrj6wcRbNg65UKX9IucLoCtrIxIYQxDqNav4------

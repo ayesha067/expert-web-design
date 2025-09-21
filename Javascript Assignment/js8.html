@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+  <h1>Task Manager</h1>
+  <input id="taskInput" placeholder="Write task">
+  <button onclick="addTask()">Add</button>
+
+  <ul id="taskList"></ul>
+
+  <script>
+    function addTask() {
+      let input = document.getElementById("taskInput");
+      let text = input.value;
+      if (text === "") return;
+
+      let li = document.createElement("li");
+      li.textContent = text;
+
+      li.onclick = function () {
+        li.style.textDecoration = 
+          li.style.textDecoration === "line-through" ? "none" : "line-through";
+      };
+
+      let del = document.createElement("button");
+      del.textContent = "X";
+      del.onclick = function () {
+        li.remove();
+      };
+
+      li.appendChild(del);
+      document.getElementById("taskList").appendChild(li);
+
+      input.value = "";
+    }
+  </script>
+</body>
+</html>

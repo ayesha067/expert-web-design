@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Text Changer</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 30px;
+    }
+    p {
+      font-size: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+  </style>
+
+   <script>
+
+    function changeText() {
+      let para = document.getElementById("text");
+
+      if (para.innerText === "Who are You??") {
+        para.innerText = "I am Ayesha!";
+        para.style.color = "green";   
+      } else {
+        para.innerText = "Who are You??";
+        para.style.color = "black";   }
+    }
+
+  </script>
+<body>
+  <h2>Interactive Text Changer</h2>
+  <p id="text">Who are You??</p>
+  <button onclick="changeText()">Change</button>
+
+
+ 
+</body>
+</html>
