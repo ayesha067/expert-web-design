@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Books Display</title>
+
+  <script>
+    let books = [
+      { "title": "Namal", "author": "Nimrah Ahmed" },
+      { "title": "Bakht", "author": "Mehrun Nisa Shahmeer" },
+      { "title": "Aab-e-Hayat", "author": "Umera Ahmed" },
+      { "title": "Maseel", "author": "Noor Rajpoot" }
+    ];
+
+    function showBooks() {
+      let table = document.getElementById("booklisting");
+
+      table.innerHTML = `
+        <tr>
+          <th>Title</th>
+          <th>Author</th>
+        </tr>
+      `;
+
+      books.forEach(b => {
+        table.innerHTML += `
+          <tr>
+            <td>${b.title}</td>
+            <td>${b.author}</td>
+          </tr>
+        `;
+      });
+    }
+  </script>
+</head>
+<body>
+
+  <h2>My Favorite Books</h2>
+
+  <table id="booklisting" border="1" cellpadding="5"></table>
+  <br>
+  <button onclick="showBooks()">Show Books</button>
+
+</body>
+</html>

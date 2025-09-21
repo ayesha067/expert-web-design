@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Favorite Movies List</title>
+
+  <script>
+    let movies = [
+      { "title": "Titanic", "year": 1997, "genre": "Romance/Drama", "author": "James Cameron" },
+      { "title": "Harry Potter and the Philosopher's Stone", "year": 2001, "genre": "Fantasy/Adventure", "author": "J.K. Rowling / Chris Columbus" }
+    ];
+
+    function loadMovies() {
+      let access = document.getElementById("movielist");
+      access.innerHTML = ""; 
+
+      movies.forEach(m => {
+        access.innerHTML += `<li><strong>${m.title}</strong> (${m.year}) - ${m.genre} - ${m.author}</li>`;
+      });
+
+      console.log(movies);
+    }
+  </script>
+</head>
+
+<body>
+  <h2>Favorite Movies</h2>
+  <ul id="movielist">Loading...</ul>
+
+  <button onclick="loadMovies()">Show Movies</button>
+</body>
+
+</html>
